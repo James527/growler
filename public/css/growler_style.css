@@ -1,9 +1,52 @@
 body {
-	background: slategrey;
-	color: white;
-	font-family: 'Gloria Hallelujah', cursive;
+    background: slategrey;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: relative;
 }
 
-h1 {
-	font-family: 'Chewy', cursive;
+header #top {
+    background-color: blue;
+    display: inline;
+    list-style: none;
+    height: 200px;
+}
+
+header #top ul li {
+    background-color: blue;
+    display: inline;
+    float: left;
+    list-style: none;
+    padding: .5em;
+    position: relative;
+    left: 2em;
+    top: .5em;
+}
+
+header #top ul li img{
+	width: 150px;
+}
+
+header h1{
+	position: relative;
+	float: left;
+}
+
+header #top ul li #searchBar{
+    background-color: blue;
+    display: inline;
+    list-style: none;
+    padding: .5em;
+    position: relative;
+    left: 50em;
+    top: 1.5em;
+}
+div #topSpacer {
+    background-color: purple;
+    position: relative;
+    top: 1em;
+}
+div #profilePicture {
+    background-color: orange;
+    color: green;
 }

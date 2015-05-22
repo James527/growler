@@ -35,10 +35,13 @@
   and then one images on left, search and search button on the right. Leave breathing room between elements for aesthetic appeal.-->
 	<header>
     <div class="twelve columns" id ="top">
-      <ul>
-        <li><div>placeholder img</div> </li>
-        <li><h1>GROWLER</h1> </li>
-        <li><div id="searchBar">placeholder search bar</div></li>
+      <ul class="twelve columns">
+        <li class="three columns"><div><img src="../public/images/headerimg.png" alt="placeholder img"></div></li>
+        <li class="five columns"><h1>GROWLER</h1></li>
+        <li class="three columns"><form id="searchBar">
+          <input type="search" placeholder="Search...">
+          <input type="submit" value="Submit">
+        </form></li>
       </ul>
     </div>
 	</header>
@@ -46,16 +49,26 @@
 <!--middle row.-->
   <div class="container">
     <div class="row">
-      <br><br><br><br><br>
       <!--profile picture (left side) space-->
-      <div class="three columns" id ="profilePicture">
-        <p>Profile picture placeholder</p>
+      <div class="three columns">
+        <img id ="profilePicture" src="../public/images/fannie.png">
       </div>
 
       <!-- -->
-      <div class="placeholder" id="growl"
-    </div>
-  </div>
+      <div class="nine columns" id="">
+        <div class="u-full-width">
+          <form>
+            <textarea class="u-full-width" id="growl" placeholder="What's happing?"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+        <div>
+          <p>Growl Content Here</p>
+        </div>
+
+      </div>
+  </div><!-- /End of Container -->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
