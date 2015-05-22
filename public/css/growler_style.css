@@ -1,19 +1,19 @@
 body {
-    background: slategrey;
+    background: #0194BE;
     color: white;
     font-family: 'Gloria Hallelujah', cursive;
     position: relative;
 }
 
 header #top {
-    background-color: blue;
+    background-color: #005B99;
     display: inline;
     list-style: none;
-    height: 200px;
+    height: 13em;
 }
 
 header #top ul li {
-    background-color: blue;
+    background-color: #005B99;
     display: inline;
     float: left;
     list-style: none;
@@ -24,7 +24,7 @@ header #top ul li {
 }
 
 header #top ul li img{
-	width: 150px;
+	width: 10em;
 }
 
 header h1{
@@ -49,4 +49,19 @@ div #topSpacer {
 div #profilePicture {
     background-color: orange;
     color: green;
+    border: .3em solid #F08204;
 }
+
+div #postingContent {
+    background: #84D1D8;
+    height: 200em;
+    width: 48em;
+    border-radius: 1em;
+}
+
+div #postingContent p {
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
