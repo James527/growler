@@ -18,13 +18,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../public/css/normalize.css">
-  <link rel="stylesheet" href="../public/css/skeleton.css">
-  <link rel="stylesheet" href="../public/css/growler_style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/growler_style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../public/images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
@@ -36,7 +36,7 @@
   <header>
     <div class="twelve columns" id ="top">
       <ul class="twelve columns">
-        <li class="three columns"><div><img src="../public/images/headerimg.png" alt="placeholder img"></div></li>
+        <li class="three columns"><div><img src="../images/headerimg.png" alt="placeholder img"></div></li>
         <br><br>
         <li class="five columns"><h1>GROWLER</h1></li>
         <li class="three columns"><form id="searchBar">
@@ -54,7 +54,7 @@
       <!--profile picture (left side) space-->
       <div class="three columns">
         <br><br><br><br>
-        <img id ="profilePicture" src="../public/images/fannie.png">
+        <img id ="profilePicture" src="/images/fannie.png">
       </div>
 
       <!-- -->
@@ -62,13 +62,13 @@
       <div class="nine columns" id="">
         <div class="u-full-width">
           <form>
-            <textarea class="u-full-width" id="growl" placeholder="What's happening?"></textarea>
+            <input type="text" name="text" class="u-full-width" id="growl" placeholder="What's happening?">
             <input type="submit" value="Submit" id="submitbutton">
           </form>
         </div>
 
         <div id="postingContent">
-          <p>Growl Content Here</p>
+          <p><%= @growls %></p>
         </div>
 
       </div>
